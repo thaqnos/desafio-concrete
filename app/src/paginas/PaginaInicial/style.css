@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-titulo__home {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+}
+
+.span-subtitulo__home {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+
+.input__home {
+    width: 650px;
+    height: 50px;
+    padding: 10px;
+}
+
+.button__home {
+    width: 100px;
+    height: 50px;
+    background-color: #ac53f2;
+    border: none;
+    background-image: url('../../assets/imagens/search-icon.svg');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: rotateY(180deg)
+}
+
+.input__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
